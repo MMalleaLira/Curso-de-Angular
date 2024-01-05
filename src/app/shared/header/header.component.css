@@ -1,0 +1,39 @@
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: var(--morty-hair-color);
+    display: flex;
+}
+
+.navbar__logo{
+    padding: 5px 0;
+    height: 70px;
+}
+
+.navbar__links {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 1rem;
+
+}
+
+.navbar__links > ul > li {
+    display: inline;
+}
+
+.navbar__link{
+    color: var(--white);
+    padding: 0 .5rem;
+    transition: color 200ms ease-in-out;
+}
+
+.navbar__link:hover{
+    color: var(--rick-hair-color);
+    padding: 0 .5rem;
+}
+
+
+
+
