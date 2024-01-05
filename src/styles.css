@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    font-family: sans-serif, 'Raleway';
+    font-size: 18px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+}
+
+:root{
+    --morty-shirt-color: #edea74;
+    --morty-hair-color: #925a23;
+    --rick-hair-color: #a8d2e9;
+    --gray: #f2f2f2;
+    --white: white;
+    --shadow: 10px 10px 20px 0px rgba(0,0,0,0.5);
+    --padding: 2rem;
+    --padding-input: 1rem;
+    --margin: 1rem;
+    --border-radius: .75rem;
+    --gap: 1rem;
+
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
