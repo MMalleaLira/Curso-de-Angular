@@ -2,7 +2,7 @@
     height: 350px;
     width: 250px;
     box-shadow: var(--shadow);
-    
+    display: block;
 }
 
 .card-container__img{
@@ -39,6 +39,7 @@
 
 .unknown{
     background-color: var(--gray);
+    color: black;
 }
 
 .card-img{

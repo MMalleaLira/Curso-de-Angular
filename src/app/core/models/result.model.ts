@@ -1,3 +1,4 @@
+import { Location } from "./location.model"
 import { Origin } from "./origin.model"
 
 export interface Result {

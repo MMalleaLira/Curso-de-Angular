@@ -19,7 +19,6 @@ export class CharactersPageComponent {
   ngOnInit(): void {
     this.characterService.getFirstCharacters$().subscribe((data) => {
       this.characters = data;
-      console.log(this.characters)
     })
     
   }
